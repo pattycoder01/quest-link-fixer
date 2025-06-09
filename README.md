@@ -1,10 +1,12 @@
 # Quest Link Fixer
 
-A lightweight Windows utility to resolve Meta Quest Link connection issues by terminating problematic Oculus processes.
+A lightweight Windows utility that aims to resolve Meta Quest Link connection issues by terminating problematic Oculus processes.
 
 ## Overview
 
-Quest Link Fixer is a simple batch script that addresses common connectivity problems between Meta Quest headsets and PC by cleanly terminating Oculus runtime processes. This allows the Oculus software to restart fresh, often resolving connection instability and performance issues.
+Quest Link Fixer is a simple batch script that addresses common connectivity problems between Meta Quest headsets and PC by cleanly terminating Oculus runtime processes. This allows the Oculus software to restart fresh, which may resolve connection instability and performance issues.
+
+**Disclaimer:** This tool may help with Quest Link issues, but results are not guaranteed. The effectiveness depends on the specific cause of your connection problems. I've observed this approach working in some cases, but I cannot explain exactly why or guarantee it will work for everyone.
 
 ## Features
 
@@ -40,6 +42,8 @@ If you continue experiencing Link connection issues after running the script:
 - Restart the Oculus software manually
 - Check that your graphics drivers are up to date
 - Verify your USB cable supports data transfer (not just charging)
+
+**Note:** This script works by terminating Oculus processes, which sometimes resolves connectivity issues. However, Quest Link problems can have many different causes, and this solution may not work for all scenarios.
 
 ## Contributing
 
